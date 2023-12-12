@@ -58,3 +58,12 @@ html {
 .scrollbar-hide::-webkit-scrollbar-thumb {
     background-color: transparent;
 }
+.grayscale {
+    filter: grayscale(100%); /* 100% escala de grises */
+    transition: filter 0.3s ease; /* Transición suave para el efecto hover */
+  }
+  
+  /* Estilo de las imágenes al pasar el mouse */
+  .grayscale:hover {
+    filter: none; /* Elimina el filtro al pasar el mouse */
+  }
